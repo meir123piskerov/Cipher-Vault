@@ -6,7 +6,6 @@ const register = express();
 register.post("/", async (req, res) => {
   const user = req.body;
   const users = await mongoDB.collection("users").find().toArray();
-  console.log(users);
   for (let i = 0; i < users.length; i++) {
     if (users[i].username === user.username) {
       res.status(404).json({ error: "user already register" });
