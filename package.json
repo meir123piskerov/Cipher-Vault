@@ -1,0 +1,31 @@
+{
+  "name": "cipher-vault",
+  "version": "1.0.0",
+  "description": "\"# Cipher-Vault\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meir123piskerov/Cipher-Vault.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/meir123piskerov/Cipher-Vault/issues"
+  },
+  "homepage": "https://github.com/meir123piskerov/Cipher-Vault#readme",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.89.0",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "install": "^0.13.0",
+    "mongodb": "^7.0.0",
+    "nodemon": "^3.1.11",
+    "npm": "^11.7.0"
+  }
+}
